@@ -8,9 +8,9 @@ This project focuses on making Luna Game 3D playable on Android devices by impro
 
 > This is an unofficial fan project. It is not affiliated with the original Luna Game 3D creator, MobileRPGPack, UZDoom, GZDoom, Hasbro, or any official My Little Pony project.
 
-**This project had help from AIs - Only with specific code assistance (Not in the game, in the Mobilerpgpack app and for map and model optimizations) which were 100% tested and are working well**
-
 <img src="Pinkamena.jpg" alt="Pinkamena" width="720">
+
+**This project had help from AIs - Only with specific code assistance (Not in the game, in the Mobilerpgpack app and for map and model optimizations) which were 100% tested and are working well**
 
 --- 
 
