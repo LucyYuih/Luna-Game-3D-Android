@@ -1,0 +1,28 @@
+.class public abstract Lkotlinx/serialization/modules/SerializersModuleKt;
+.super Ljava/lang/Object;
+.source "r8-map-id-3dbf3af7d2e695376577da9fc4fd860c39c03d92ec56be0d61daa3a3a9758c4a"
+
+
+# static fields
+.field public static final EmptySerializersModule:Lcom/google/mlkit/nl/translate/zza;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lcom/google/mlkit/nl/translate/zza;
+
+    .line 3
+    const/16 v1, 0x15
+
+    .line 5
+    invoke-direct {v0, v1}, Lcom/google/mlkit/nl/translate/zza;-><init>(I)V
+
+    .line 8
+    sput-object v0, Lkotlinx/serialization/modules/SerializersModuleKt;->EmptySerializersModule:Lcom/google/mlkit/nl/translate/zza;
+
+    .line 10
+    return-void
+.end method

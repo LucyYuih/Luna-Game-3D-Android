@@ -1,0 +1,113 @@
+.class public final Landroidx/compose/ui/text/android/style/LineHeightSpan;
+.super Ljava/lang/Object;
+.source "r8-map-id-3dbf3af7d2e695376577da9fc4fd860c39c03d92ec56be0d61daa3a3a9758c4a"
+
+# interfaces
+.implements Landroid/text/style/LineHeightSpan;
+
+
+# instance fields
+.field public final lineHeight:F
+
+
+# direct methods
+.method public constructor <init>(F)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    iput p1, p0, Landroidx/compose/ui/text/android/style/LineHeightSpan;->lineHeight:F
+
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final chooseHeight(Ljava/lang/CharSequence;IIIILandroid/graphics/Paint$FontMetricsInt;)V
+    .registers 7
+
+    .line 1
+    iget p1, p6, Landroid/graphics/Paint$FontMetricsInt;->descent:I
+
+    .line 3
+    iget p2, p6, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
+
+    .line 5
+    sub-int/2addr p1, p2
+
+    .line 6
+    if-gtz p1, :cond_8
+
+    .line 8
+    return-void
+
+    .line 9
+    :cond_8
+    iget p0, p0, Landroidx/compose/ui/text/android/style/LineHeightSpan;->lineHeight:F
+
+    .line 11
+    float-to-double p2, p0
+
+    .line 12
+    invoke-static {p2, p3}, Ljava/lang/Math;->ceil(D)D
+
+    .line 15
+    move-result-wide p2
+
+    .line 16
+    double-to-float p0, p2
+
+    .line 17
+    float-to-int p0, p0
+
+    .line 18
+    int-to-float p2, p0
+
+    .line 19
+    const/high16 p3, 0x3f800000  # 1.0f
+
+    .line 21
+    mul-float/2addr p2, p3
+
+    .line 22
+    int-to-float p1, p1
+
+    .line 23
+    div-float/2addr p2, p1
+
+    .line 24
+    iget p1, p6, Landroid/graphics/Paint$FontMetricsInt;->descent:I
+
+    .line 26
+    int-to-double p3, p1
+
+    .line 27
+    float-to-double p1, p2
+
+    .line 28
+    mul-double/2addr p3, p1
+
+    .line 29
+    invoke-static {p3, p4}, Ljava/lang/Math;->ceil(D)D
+
+    .line 32
+    move-result-wide p1
+
+    .line 33
+    double-to-int p1, p1
+
+    .line 34
+    iput p1, p6, Landroid/graphics/Paint$FontMetricsInt;->descent:I
+
+    .line 36
+    sub-int/2addr p1, p0
+
+    .line 37
+    iput p1, p6, Landroid/graphics/Paint$FontMetricsInt;->ascent:I
+
+    .line 39
+    return-void
+.end method

@@ -1,0 +1,46 @@
+.class public final Landroidx/compose/material3/ContentColorKt$LocalContentColor$1;
+.super Ljava/lang/Object;
+.source "r8-map-id-3dbf3af7d2e695376577da9fc4fd860c39c03d92ec56be0d61daa3a3a9758c4a"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# static fields
+.field public static final INSTANCE:Landroidx/compose/material3/ContentColorKt$LocalContentColor$1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Landroidx/compose/material3/ContentColorKt$LocalContentColor$1;
+
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    sput-object v0, Landroidx/compose/material3/ContentColorKt$LocalContentColor$1;->INSTANCE:Landroidx/compose/material3/ContentColorKt$LocalContentColor$1;
+
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    sget-wide v0, Landroidx/compose/ui/graphics/Color;->Black:J
+
+    .line 3
+    new-instance p0, Landroidx/compose/ui/graphics/Color;
+
+    .line 5
+    invoke-direct {p0, v0, v1}, Landroidx/compose/ui/graphics/Color;-><init>(J)V
+
+    .line 8
+    return-object p0
+.end method

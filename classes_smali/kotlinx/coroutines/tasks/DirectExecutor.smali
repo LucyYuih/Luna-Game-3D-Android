@@ -1,0 +1,40 @@
+.class public final Lkotlinx/coroutines/tasks/DirectExecutor;
+.super Ljava/lang/Object;
+.source "r8-map-id-3dbf3af7d2e695376577da9fc4fd860c39c03d92ec56be0d61daa3a3a9758c4a"
+
+# interfaces
+.implements Ljava/util/concurrent/Executor;
+
+
+# static fields
+.field public static final INSTANCE:Lkotlinx/coroutines/tasks/DirectExecutor;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lkotlinx/coroutines/tasks/DirectExecutor;
+
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    sput-object v0, Lkotlinx/coroutines/tasks/DirectExecutor;->INSTANCE:Lkotlinx/coroutines/tasks/DirectExecutor;
+
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final execute(Ljava/lang/Runnable;)V
+    .registers 2
+
+    .line 1
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+
+    .line 4
+    return-void
+.end method
