@@ -4,9 +4,13 @@ Unofficial Android port and optimization project for **Luna Game 3D**, running t
 
 This project focuses on making Luna Game 3D playable on Android devices by improving mobile configurations, touch controls, map loading, MD2 model performance, and overall stability.
 
+<img src="Title.png" alt="Original version running on Android" width="720">
+
 > This is an unofficial fan project. It is not affiliated with the original Luna Game 3D creator, MobileRPGPack, UZDoom, GZDoom, Hasbro, or any official My Little Pony project.
 
 **This project had help from AIs - Only with specific code assistance (Not in the game, in the Mobilerpgpack app and for map and model optimizations) which were 100% tested and are working well**
+
+<img src="Pinkamena.png" alt="Original version running on Android" width="720">
 
 --- 
 
