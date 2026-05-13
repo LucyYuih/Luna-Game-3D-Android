@@ -1,2 +1,0 @@
-extra keyboard keys were removed
-number keyboard keys size was increased
